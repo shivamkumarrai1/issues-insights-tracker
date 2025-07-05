@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": false,
+		"module": "es2015",
+		"moduleResolution": "bundler",
+		"baseUrl": ".",
+		"paths": {
+			"$lib/*": [
+				"src/lib/*"
+			],
+			"$lib": [
+				"src/lib"
+			],
+			"$routes/*": [
+				"src/routes/*"
+			]
+		}
+	},
+	"exclude": [
+		"node_modules",
+		".svelte-kit",
+		"build"
+	]
+}

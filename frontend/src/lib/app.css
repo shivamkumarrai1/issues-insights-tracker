@@ -1,0 +1,121 @@
+/* Base Reset */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Light Theme */
+:root {
+  --bg-color: #f9f9f9;
+  --text-color: #111;
+  --input-bg: #fff;
+  --input-border: #ccc;
+  --input-placeholder: #666;
+  --btn-bg: #1e3a8a;
+  --btn-text: #fff;
+  --card-bg: #fff;
+}
+
+/* Dark Theme */
+.dark {
+  --bg-color: #1c1c1c;
+  --text-color: #f5f5f5;
+  --input-bg: #2a2a2a;
+  --input-border: #555;
+  --input-placeholder: #aaa;
+  --btn-bg: #2563eb;
+  --btn-text: #fff;
+  --card-bg: #2d2d2d;
+}
+
+/* Container for forms */
+.form-container {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+/* Inputs, selects, textareas */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  background-color: var(--input-bg);
+  border: 1px solid var(--input-border);
+  border-radius: 6px;
+  color: var(--text-color);
+  margin-bottom: 1.2rem;
+  box-sizing: border-box;
+}
+
+/* Placeholder styling */
+input::placeholder,
+textarea::placeholder {
+  color: var(--input-placeholder);
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1a3275;
+}
+
+/* Error message */
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Issue Cards */
+.issue-card {
+  background-color: var(--card-bg);
+  padding: 1rem;
+  border: 1px solid var(--input-border);
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+/* Optional Dark Mode Toggle Button */
+.toggle-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
