@@ -20,7 +20,7 @@
   }
 
   function connectSSE() {
-    const eventSource = new EventSource('http://localhost:8000/api/stream');
+    const eventSource = new EventSource('http://localhost:8000/api/stream/');
 
     eventSource.onmessage = (event) => {
       const data = JSON.parse(event.data);
