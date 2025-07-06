@@ -129,7 +129,7 @@ Real-time dashboard sync (SSE)
 
 API docs preview
 
-👉 [Insert Loom/YouTube video link here]
+Loom video link: https://www.loom.com/share/3963d5131607420aa1f206262d80b8c5?sid=c5658c82-0341-463a-99ef-ee5f361e171c
 
 🧑‍💻 Developer Notes
 🔁 Run background scheduler manually (optional)
