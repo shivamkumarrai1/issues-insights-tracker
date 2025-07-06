@@ -109,8 +109,8 @@ Date        OPEN	   TRIAGED	    IN_PROGRESS	  DONE
 🔒 Roles and Permissions
 Role     Create  View     All       EditDelete
 REPORTER   ✅    ❌      ❌	      ❌
-MAINTAINER ❌	✅	   ✅       	  ❌
-ADMIN      ✅    ✅      ✅          ✅
+MAINTAINER ❌    ✅      ✅        ❌
+ADMIN      ✅    ✅      ✅        ✅
 
 🔍 API Endpoints
 Visit: http://localhost:8000/api/docs
@@ -148,7 +148,7 @@ File path is not actually uploaded, just stored as string
 
 Basic form validation; no client-side markdown preview
 
-🙏 Acknowledgements
+## Acknowledgements
 SvelteKit
 
 FastAPI
